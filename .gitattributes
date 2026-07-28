@@ -1,3 +1,5 @@
 # The generators are tooling, not the substance of this repo. Without this,
 # GitHub labels a brand profile "Python 100%".
-tools/** linguist-detectable=false
+# The unset form is a LEADING HYPHEN; "=false" silently does nothing.
+tools/** -linguist-detectable
+tools/** linguist-vendored
