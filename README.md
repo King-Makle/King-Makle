@@ -65,44 +65,7 @@ Combining code, automation, and emerging AI tools to expand the creative process
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-<img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
-<img src="https://img.shields.io/badge/Astro-0A0A0A?style=for-the-badge&logo=astro&logoColor=BC52EE" alt="Astro" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
-<img src="https://img.shields.io/badge/Tailwind-0A0A0A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind" />
-<img src="https://img.shields.io/badge/shadcn%2Fui-0A0A0A?style=for-the-badge&logo=shadcnui&logoColor=FFFFFF" alt="shadcn/ui" />
-<img src="https://img.shields.io/badge/Vite-0A0A0A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
-<img src="https://img.shields.io/badge/Vitest-0A0A0A?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="Vitest" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Three.js-0A0A0A?style=for-the-badge&logo=threedotjs&logoColor=FFFFFF" alt="Three.js" />
-<img src="https://img.shields.io/badge/Remotion-0A0A0A?style=for-the-badge&logo=react&logoColor=4A9EFF" alt="Remotion" />
-<img src="https://img.shields.io/badge/Framer%20Motion-0A0A0A?style=for-the-badge&logo=framer&logoColor=0055FF" alt="Framer Motion" />
-<img src="https://img.shields.io/badge/GSAP-0A0A0A?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
-<img src="https://img.shields.io/badge/Matter.js-0A0A0A?style=for-the-badge&logo=matterdotjs&logoColor=FFFFFF" alt="Matter.js" />
-<img src="https://img.shields.io/badge/SVG-0A0A0A?style=for-the-badge&logo=svg&logoColor=FFB13B" alt="SVG" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Electron-0A0A0A?style=for-the-badge&logo=electron&logoColor=6FD5E8" alt="Electron" />
-<img src="https://img.shields.io/badge/React%20Flow-0A0A0A?style=for-the-badge&logo=xyflow&logoColor=FF0072" alt="React Flow" />
-<img src="https://img.shields.io/badge/Drizzle-0A0A0A?style=for-the-badge&logo=drizzle&logoColor=C5F74F" alt="Drizzle" />
-<img src="https://img.shields.io/badge/SQLite-0A0A0A?style=for-the-badge&logo=sqlite&logoColor=4DA8DA" alt="SQLite" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Figma-0A0A0A?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
-<img src="https://img.shields.io/badge/Illustrator-0A0A0A?style=for-the-badge&logo=adobe&logoColor=FF9A00" alt="Illustrator" />
-<img src="https://img.shields.io/badge/Sanity-0A0A0A?style=for-the-badge&logo=sanity&logoColor=F03E2F" alt="Sanity" />
-<img src="https://img.shields.io/badge/Cloudflare-0A0A0A?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
-<img src="https://img.shields.io/badge/Netlify-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" />
+<img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/toolkit.svg" width="100%" alt="Toolkit: TypeScript, JavaScript, Python, React, Next.js, Astro, Node.js, Tailwind, shadcn/ui, Vite, Vitest, Three.js, Remotion, Framer Motion, GSAP, Matter.js, SVG, Electron, React Flow, Drizzle, SQLite, Figma, Illustrator, Sanity, Cloudflare, Netlify" />
 
 </div>
 
