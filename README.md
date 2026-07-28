@@ -127,10 +127,6 @@ Change one palette value and the site, the 3D scene, and every video variant reg
 
 <br/><br/>
 
-<img src="https://trophy.ryglcloud.net/?username=King-Makle&title=Commits,Experience&column=2&theme=gruvbox&no-frame=true&margin-w=20&margin-h=15" alt="GitHub trophies" />
-
-<br/><br/>
-
 <img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/name-snake.svg" width="100%" alt="A snake clearing the grid to reveal MAKLE" />
 
 </div>
