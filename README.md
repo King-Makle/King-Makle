@@ -14,7 +14,7 @@
 My work sits at the intersection of identity, strategy, design, motion, and front-end development. Keeping those pieces connected means the finished product stays true to the original concept instead of losing clarity during handoff.
 
 > **Most of my recent work lives in private client and agency repositories.**
-> You can see the finished projects and case studies at 👑 [maklerichards.com](https://www.maklerichards.com).
+> You can see the finished projects and case studies at [maklerichards.com](https://www.maklerichards.com).
 
 <br/>
 
