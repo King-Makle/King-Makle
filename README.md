@@ -7,11 +7,8 @@
 <img src="https://img.shields.io/badge/1%2C000%2B%20contributions-this%20year-EFC38F?style=for-the-badge&logo=github&logoColor=0A0A0A&labelColor=9E7F5F" alt="1,000+ contributions this year" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=3400&pause=1000&color=EFC38F&center=true&vCenter=true&width=680&height=48&lines=Most+designers+hand+off+a+PDF.;I+hand+off+the+running+site.;Brand+systems+that+ship+as+real+code." alt="Most designers hand off a PDF. I hand off the running site." />
-
 </div>
-
 ---
-
 ## The short version
 
 I do **brand identity, digital design, and creative strategy** — and then I build the thing myself.
