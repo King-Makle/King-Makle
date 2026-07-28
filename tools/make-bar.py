@@ -2,68 +2,87 @@
 """
 Build the link bar that sits under the banner.
 
-Three fixed-width shields.io badges can never add up to exactly the banner's
-width, because the banner is width="100%" and reflows with the column. So this
-draws the bar as ONE svg on the banner's own 1584-unit viewBox: set both to
-width="100%" and they render identically wide at any column size, forever.
+Emitted as THREE svgs, not one, so each segment can carry its own href — a
+single <img> can only ever be one link target, and SVG-internal <a> elements
+are inert when the SVG is embedded via <img>.
 
-Trade-off: one <img> means one link target, so the bar links to the portfolio.
+Keeping them aligned is the whole trick:
+  * every piece shares the same viewBox HEIGHT, and its viewBox WIDTH is its
+    share of the banner's 1584 units;
+  * each <img> gets width="<share>%" (percentages survive GitHub's sanitizer,
+    fractions included).
+Rendered height is then (share x column) x (H / shareWidth) = column x H/1584
+for all three — identical by construction, at any column width. The pieces
+also total the banner's width, because the shares total 1584.
+
+Emit the README snippet with --snippet. The three <a> tags MUST stay on one
+line with no whitespace between them: images are inline, so a newline becomes
+a space, and 100% + spaces wraps the last piece onto its own row.
 """
 
-W, H = 1584, 74          # same viewBox width as banner.png -> identical scaling
+import argparse
+
+TOTAL, H = 1584, 74          # TOTAL matches banner.png's viewBox width
 BLACK, GOLD, BRONZE = "#0A0A0A", "#EFC38F", "#9E7F5F"
 SANS = "'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
-# segment boundaries; last one is the filled highlight
+K_SIZE, V_SIZE = 19, 22
+K_LS, V_LS = 3.6, 4.2
+
+# (file, width, kicker, value, filled, href, divider-on-left)
 SEGMENTS = [
-    (0,    600,  "PORTFOLIO", "MAKLERICHARDS.COM", False),
-    (600,  1090, "AGENCY",    "PROSPECT FUTURE",   False),
-    (1090, W,    None,        "1,000+ CONTRIBUTIONS", True),
+    ("link-bar-1.svg", 600, "PORTFOLIO", "MAKLERICHARDS.COM", False,
+     "https://www.maklerichards.com", False),
+    ("link-bar-2.svg", 490, "AGENCY", "PROSPECT FUTURE", False,
+     "https://github.com/Prospect-Future", True),
+    ("link-bar-3.svg", 494, None, "1,000+ CONTRIBUTIONS", True, None, False),
 ]
 
-K_SIZE, V_SIZE = 19, 22          # kicker / value type sizes
-K_LS,  V_LS = 3.6, 4.2           # letter-spacing
 
-
-def build():
-    out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
-        f'width="{W}" height="{H}" role="img" '
-        f'aria-label="Portfolio maklerichards.com | Agency Prospect Future | '
-        f'1,000+ contributions this year">',
-        '<title>Makle Richards — links</title>',
-        f'<rect width="{W}" height="{H}" fill="{BLACK}"/>',
-    ]
-    for x0, x1, kicker, value, filled in SEGMENTS:
-        mid = (x0 + x1) / 2
-        if filled:
-            out.append(f'<rect x="{x0}" y="0" width="{x1-x0}" height="{H}" fill="{GOLD}"/>')
-            out.append(
-                f'<text x="{mid}" y="47" text-anchor="middle" font-family="{SANS}" '
-                f'font-size="{V_SIZE}" font-weight="700" letter-spacing="{V_LS}" '
-                f'fill="{BLACK}">{value}</text>')
-        else:
-            # One <text> with two <tspan>s: the browser measures and centres the
-            # pair itself, so no glyph-width guessing (which is what broke the
-            # first attempt - estimates ran long and the labels collided).
-            out.append(
-                f'<text x="{mid}" y="47" text-anchor="middle" font-family="{SANS}">'
-                f'<tspan font-size="{K_SIZE}" font-weight="600" letter-spacing="{K_LS}" '
-                f'fill="{BRONZE}">{kicker} </tspan>'
-                f'<tspan font-size="{V_SIZE}" font-weight="700" letter-spacing="{V_LS}" '
-                f'fill="#FFFFFF">{value}</tspan></text>')
-
-    # hairline dividers between segments, in the banner's gold
-    for x0, _, _, _, _ in SEGMENTS[1:]:
-        out.append(f'<rect x="{x0-1}" y="16" width="2" height="{H-32}" '
-                   f'fill="{BRONZE}" opacity="0.55"/>')
-
-    out.append("</svg>")
-    return "\n".join(out)
+def piece(w, kicker, value, filled, divider):
+    mid = w / 2
+    body = [f'<rect width="{w}" height="{H}" fill="{GOLD if filled else BLACK}"/>']
+    if filled:
+        body.append(
+            f'<text x="{mid}" y="47" text-anchor="middle" font-family="{SANS}" '
+            f'font-size="{V_SIZE}" font-weight="700" letter-spacing="{V_LS}" '
+            f'fill="{BLACK}">{value}</text>')
+    else:
+        # One <text> with two <tspan>s so the browser measures and centres the
+        # pair; estimating glyph widths made the labels collide.
+        body.append(
+            f'<text x="{mid}" y="47" text-anchor="middle" font-family="{SANS}">'
+            f'<tspan font-size="{K_SIZE}" font-weight="600" letter-spacing="{K_LS}" '
+            f'fill="{BRONZE}">{kicker} </tspan>'
+            f'<tspan font-size="{V_SIZE}" font-weight="700" letter-spacing="{V_LS}" '
+            f'fill="#FFFFFF">{value}</tspan></text>')
+    if divider:
+        body.append(f'<rect x="0" y="16" width="2" height="{H-32}" '
+                    f'fill="{BRONZE}" opacity="0.55"/>')
+    label = f"{kicker} {value}" if kicker else value
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {H}" '
+            f'width="{w}" height="{H}" role="img" aria-label="{label}">'
+            + "".join(body) + "</svg>")
 
 
 if __name__ == "__main__":
-    svg = build()
-    with open("assets/link-bar.svg", "w") as fh:
-        fh.write(svg)
-    print(f"wrote assets/link-bar.svg ({len(svg)} bytes, viewBox {W}x{H})")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--snippet", action="store_true")
+    a = ap.parse_args()
+
+    assert sum(s[1] for s in SEGMENTS) == TOTAL, "shares must total the banner width"
+
+    tags = []
+    for fname, w, kicker, value, filled, href, divider in SEGMENTS:
+        with open(f"assets/{fname}", "w") as fh:
+            fh.write(piece(w, kicker, value, filled, divider))
+        pct = round(w / TOTAL * 100, 3)
+        alt = f"{kicker}: {value}" if kicker else value
+        url = f"https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/{fname}"
+        img = f'<img src="{url}" width="{pct}%" alt="{alt}" />'
+        tags.append(f'<a href="{href}">{img}</a>' if href else img)
+        print(f"wrote assets/{fname:<16} {w:>4} units  ->  width=\"{pct}%\"")
+
+    if a.snippet:
+        print("\n--- README snippet (single line, no spaces between tags) ---")
+        print("".join(tags))
