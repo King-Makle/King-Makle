@@ -7,42 +7,42 @@
 </div>
 
 ---
-## The short version
+## The direction
 
-**I build brands and digital experiences from the first idea through the final launch.**
+**I'm interested in the space where design, technology, motion, and AI start to overlap.** Most of my work lives somewhere between those areas, whether I'm developing an identity, designing an interface, or experimenting with a new tool.
 
-My work sits at the intersection of identity, strategy, design, motion, and front-end development. Keeping those pieces connected means the finished product stays true to the original concept instead of losing clarity during handoff.
+The tools will keep changing, and that is part of what keeps the work interesting. I try to stay curious, use them with purpose, and make things that feel thoughtful, useful, and well made.
 
-> **Most of my recent work lives in private client and agency repositories.**
-> You can see the finished projects and case studies at [maklerichards.com](https://www.maklerichards.com).
+> **Much of this work lives inside private client projects, agency repositories, and active experiments.**
+> The clearest view of what I am creating is at [maklerichards.com](https://www.maklerichards.com).
 
 <br/>
 
-## What I actually do
+## Building toward what comes next
 
-### Brand identity
+### Identity & systems
 
-Visual identities, logos, typography, color systems, and brand guidelines designed to work consistently across websites, campaigns, motion, and print.
+Exploring identity as a flexible system rather than a fixed collection of assets, designed to adapt across interfaces, motion, campaigns, and physical applications.
 
-<kbd>Illustrator</kbd> <kbd>Photoshop</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
+<kbd>Illustrator</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
 
-### Digital design
+### Digital experiences
 
-Websites and interfaces built around clear hierarchy, thoughtful interaction, and strong visual systems, then developed to closely match the original design.
+Designing websites and interfaces where visual direction, interaction, and implementation feel like parts of the same system rather than separate stages of production.
 
 <kbd>Figma</kbd> <kbd>Astro</kbd> <kbd>React</kbd> <kbd>Tailwind</kbd>
 
-### Motion & 3D
+### Motion & spatial design
 
-Cinematic animation, interactive 3D, and launch visuals created for digital campaigns, brand experiences, and the modern web.
+Using animation, 3D, and real-time graphics to create experiences that move, respond, and extend beyond static layouts.
 
 <kbd>Three.js</kbd> <kbd>Remotion</kbd> <kbd>WebGL</kbd> <kbd>GSAP</kbd>
 
-### Creative strategy
+### Creative technology
 
-Positioning, campaign direction, and scalable creative systems that connect the message, visual language, and final execution.
+Combining code, automation, and emerging AI tools to expand the creative process, from early exploration through final production.
 
-<kbd>Art direction</kbd> <kbd>Positioning</kbd> <kbd>Campaigns</kbd> <kbd>Systems</kbd>
+<kbd>AI workflows</kbd> <kbd>Creative coding</kbd> <kbd>Automation</kbd> <kbd>Prototyping</kbd>
 
 <br/>
 
