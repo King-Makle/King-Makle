@@ -88,7 +88,6 @@ Positioning, campaign direction, and scalable creative systems that connect the 
 <img src="https://img.shields.io/badge/Sanity-0A0A0A?style=for-the-badge&logo=sanity&logoColor=F03E2F" alt="Sanity" />
 <img src="https://img.shields.io/badge/Cloudflare-0A0A0A?style=for-the-badge&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
 <img src="https://img.shields.io/badge/Netlify-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" />
-<img src="https://img.shields.io/badge/Vercel-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
 
 </div>
 
