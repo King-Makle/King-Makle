@@ -9,55 +9,40 @@
 ---
 ## The short version
 
-I do **brand identity, digital design, and creative strategy** — and then I build the thing myself.
+**I build brands and digital experiences from the first idea through the final launch.**
 
-That last part is the whole point. Most brand work dies in the handoff: a beautiful deck, a PDF of specs, and a developer left guessing what the motion was supposed to feel like. I close that gap. The identity, the site it lives on, the 3D render, and the launch film all come out of **one parameterized system** — so they can't drift apart.
+My work sits at the intersection of identity, strategy, design, motion, and front-end development. Keeping those pieces connected means the finished product stays true to the original concept instead of losing clarity during handoff.
 
-> [!NOTE]
-> **My public repo count is zero — that's client work, not inactivity.** Everything I ship is under private agency repos. The contribution graph below is the honest record: **1,000+ contributions in the last year.** Want to see the actual output? [maklerichards.com](https://www.maklerichards.com).
+> **Most of my recent work lives in private client and agency repositories.**
+> You can see the finished projects and case studies at 👑 [maklerichards.com](https://www.maklerichards.com).
 
 <br/>
 
 ## What I actually do
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### Brand identity
-Marks rebuilt as **true vector** — real curves and gradient stops pulled straight from the Illustrator source, so the logo stays razor-sharp at any size instead of quietly rasterizing on export.
 
-<kbd>Illustrator</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
+Visual identities, logos, typography, color systems, and brand guidelines designed to work consistently across websites, campaigns, motion, and print.
 
-</td>
-<td width="50%" valign="top">
+<kbd>Illustrator</kbd> <kbd>Photoshop</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
 
 ### Digital design
-Sites and interfaces designed and **shipped by the same person**. No handoff, no spec drift, no "that's not what the mockup did."
 
-<kbd>Figma</kbd> <kbd>Astro</kbd> <kbd>Next.js</kbd> <kbd>Tailwind</kbd>
+Websites and interfaces built around clear hierarchy, thoughtful interaction, and strong visual systems, then developed to closely match the original design.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<kbd>Figma</kbd> <kbd>Astro</kbd> <kbd>React</kbd> <kbd>Tailwind</kbd>
 
-### Motion &amp; 3D
-Launch films and cinematic product renders built as **code, not timelines** — so a palette change regenerates every variant instead of forcing a manual re-render.
+### Motion & 3D
+
+Cinematic animation, interactive 3D, and launch visuals created for digital campaigns, brand experiences, and the modern web.
 
 <kbd>Three.js</kbd> <kbd>Remotion</kbd> <kbd>WebGL</kbd> <kbd>GSAP</kbd>
 
-</td>
-<td width="50%" valign="top">
-
 ### Creative strategy
-Positioning and art direction that survive contact with production — because the person writing the strategy is the one who has to build it.
 
-<kbd>Art direction</kbd> <kbd>Positioning</kbd> <kbd>Systems</kbd>
+Positioning, campaign direction, and scalable creative systems that connect the message, visual language, and final execution.
 
-</td>
-</tr>
-</table>
+<kbd>Art direction</kbd> <kbd>Positioning</kbd> <kbd>Campaigns</kbd> <kbd>Systems</kbd>
 
 <br/>
 
