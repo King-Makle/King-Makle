@@ -1,0 +1,3 @@
+# The generators are tooling, not the substance of this repo. Without this,
+# GitHub labels a brand profile "Python 100%".
+tools/** linguist-detectable=false
