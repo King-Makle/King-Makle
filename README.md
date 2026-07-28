@@ -131,10 +131,6 @@ Change one palette value and the site, the 3D scene, and every video variant reg
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/King-Makle/King-Makle/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/King-Makle/King-Makle/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/King-Makle/King-Makle/output/snake.svg" width="100%" alt="Contribution snake" />
-</picture>
+<img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/name-snake.svg" width="100%" alt="A snake clearing the grid to reveal MAKLE" />
 
 </div>
