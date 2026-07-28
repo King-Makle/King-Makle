@@ -2,11 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/banner.png" width="100%" alt="Makle Richards — Brand Identity · Digital Design · Creative Strategy" />
 
-<a href="https://www.maklerichards.com"><img src="https://img.shields.io/badge/Portfolio-maklerichards.com-0A0A0A?style=for-the-badge&logo=safari&logoColor=EFC38F&labelColor=0A0A0A" alt="Portfolio" /></a>
-<a href="https://github.com/Prospect-Future"><img src="https://img.shields.io/badge/Agency-Prospect%20Future-0A0A0A?style=for-the-badge&logo=github&logoColor=EFC38F&labelColor=0A0A0A" alt="Prospect Future" /></a>
-<img src="https://img.shields.io/badge/1%2C000%2B%20contributions-this%20year-EFC38F?style=for-the-badge&logo=github&logoColor=0A0A0A&labelColor=9E7F5F" alt="1,000+ contributions this year" />
+<a href="https://www.maklerichards.com"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar.svg" width="100%" alt="Portfolio: maklerichards.com · Agency: Prospect Future · 1,000+ contributions" /></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=600&size=26&duration=3400&pause=1000&color=EFC38F&center=true&vCenter=true&width=680&height=48&lines=Most+designers+hand+off+a+PDF.;I+hand+off+the+running+site.;Brand+systems+that+ship+as+real+code." alt="Most designers hand off a PDF. I hand off the running site." />
 </div>
 
 ---
