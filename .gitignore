@@ -1,0 +1,16 @@
+# Working notes — these explain WHY certain widgets were left out (stats card
+# renders zeros, etc.). Useful locally, not something to publish on a profile.
+SETUP.md
+NOTES.md
+
+# Local preview / scratch pages
+preview.html
+seek*.html
+diag.html
+snaketest.html
+candidates/
+
+# Generator scratch
+tools/measure.html
+tools/__pycache__/
+.DS_Store
