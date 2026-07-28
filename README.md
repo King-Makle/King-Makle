@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/banner.png" width="100%" alt="Makle Richards — Brand Identity · Digital Design · Creative Strategy" />
 
-<a href="https://www.maklerichards.com"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-1.svg" width="37.879%" alt="PORTFOLIO: MAKLERICHARDS.COM" /></a><a href="https://github.com/Prospect-Future"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-2.svg" width="30.934%" alt="AGENCY: PROSPECT FUTURE" /></a><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-3.svg" width="31.187%" alt="1,000+ CONTRIBUTIONS" />
+<a href="https://www.maklerichards.com"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-1.svg" width="37.879%" alt="PORTFOLIO: MAKLERICHARDS.COM" /></a><a href="https://github.com/Prospect-Future"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-2.svg" width="30.934%" alt="AGENCY: PROSPECT FUTURE" /></a><a href="https://github.com/King-Makle"><img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/link-bar-3.svg" width="31.187%" alt="1,000+ CONTRIBUTIONS" /></a>
 
 </div>
 

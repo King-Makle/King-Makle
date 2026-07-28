@@ -35,7 +35,10 @@ SEGMENTS = [
      "https://www.maklerichards.com", False),
     ("link-bar-2.svg", 490, "AGENCY", "PROSPECT FUTURE", False,
      "https://github.com/Prospect-Future", True),
-    ("link-bar-3.svg", 494, None, "1,000+ CONTRIBUTIONS", True, None, False),
+    # give this one an href too: GitHub auto-wraps a bare <img> in a link to
+    # the image file, so leaving it unlinked means clicking it opens raw SVG.
+    ("link-bar-3.svg", 494, None, "1,000+ CONTRIBUTIONS", True,
+     "https://github.com/King-Makle", False),
 ]
 
 
