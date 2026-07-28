@@ -126,7 +126,7 @@ Change one palette value and the site, the 3D scene, and every video variant reg
 
 <br/>
 
-## The receipts
+## Design At Will
 
 <div align="center">
 
