@@ -29,6 +29,8 @@ Exploring identity as a flexible system rather than a fixed collection of assets
 
 <kbd>Illustrator</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
 
+<br/>
+
 </td>
 <td width="50%" valign="top">
 
@@ -36,6 +38,8 @@ Exploring identity as a flexible system rather than a fixed collection of assets
 Designing websites and interfaces where visual direction, interaction, and implementation feel like parts of the same system rather than separate stages of production.
 
 <kbd>Figma</kbd> <kbd>Astro</kbd> <kbd>React</kbd> <kbd>Tailwind</kbd>
+
+<br/>
 
 </td>
 </tr>
@@ -47,6 +51,8 @@ Using animation, 3D, and real-time graphics to create experiences that move, res
 
 <kbd>Three.js</kbd> <kbd>Remotion</kbd> <kbd>WebGL</kbd> <kbd>GSAP</kbd>
 
+<br/>
+
 </td>
 <td width="50%" valign="top">
 
@@ -54,6 +60,8 @@ Using animation, 3D, and real-time graphics to create experiences that move, res
 Combining code, automation, and emerging AI tools to expand the creative process, from early exploration through final production.
 
 <kbd>AI workflows</kbd> <kbd>Creative coding</kbd> <kbd>Automation</kbd> <kbd>Prototyping</kbd>
+
+<br/>
 
 </td>
 </tr>
