@@ -97,14 +97,6 @@ Change one palette value and the site, the 3D scene, and every video variant reg
 
 <br/>
 
-## Design At Will
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=King-Makle&bg_color=0A0A0A&color=D8C3A5&title_color=EFC38F&line=EFC38F&point=FFFFFF&area=true&area_color=9E7F5F&hide_border=true&radius=8" width="100%" alt="Contribution activity — mostly private client work" />
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/King-Makle/King-Makle/main/assets/name-snake.svg" width="100%" alt="A snake clearing the grid to reveal MAKLE" />
 
 </div>
