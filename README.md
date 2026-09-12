@@ -79,17 +79,20 @@ Combining code, automation, and emerging AI tools to expand the creative process
 
 <br/>
 
-## One source, every output
+## The Unfinished Citadel
+
+A branching story of mine, mapped end to end — *nine endings, and you may only ever see the door in front of you.* Pan and zoom to trace a path from the gate.
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Georgia,'Times New Roman',serif","fontSize":"18px","background":"#0d1117","primaryColor":"#141210","primaryTextColor":"#E6DCCB","primaryBorderColor":"#3A342C","lineColor":"#6E6558","edgeLabelBackground":"#0d1117","tertiaryColor":"#0d1117"},"flowchart":{"curve":"basis","nodeSpacing":10,"rankSpacing":52,"padding":10}}}%%
 flowchart LR
-    S0["The Unfinished Wall<br/><br/>A wall raised against nothing.<br/>The gate has stood open for years."]
-    S1["The Abandoned Work<br/><br/>The works of a hand that never<br/>rested and never finished."]
-    S2["The Rampart<br/><br/>The lamp still burning.<br/>Below, they wait on your word."]
-    S3["They Moved At Your Word<br/><br/>The direction was true.<br/>The hour was wrong."]
-    S4["The Hall of Drawings<br/><br/>Hundreds upon hundreds.<br/>One finished work at the far end."]
-    S5["The Machine<br/><br/>At labour, with no one attending it.<br/>By the fire, a dog sleeps."]
-    S6["The Dog<br/><br/>He has been here the whole while,<br/>and has never once been wrong."]
+    S0["The Unfinished Wall"]
+    S1["The Abandoned Work"]
+    S2["The Rampart"]
+    S3["They Moved At Your Word"]
+    S4["The Hall of Drawings"]
+    S5["The Machine"]
+    S6["The Dog"]
 
     E7(["The Turning"])
     E8(["The Weight Declared"])
@@ -117,13 +120,11 @@ flowchart LR
     S6 -->|"Stay a while"| E14
     S6 -->|"Rise. There is work"| E15
 
-    classDef scene fill:#111111,stroke:#2A2521,stroke-width:1.5px,color:#E6DCCB
-    classDef ending fill:#0A0A0A,stroke:#EFC38F,stroke-width:1.5px,color:#EFC38F
+    classDef scene fill:#141210,stroke:#3A342C,stroke-width:1.5px,color:#E6DCCB
+    classDef ending fill:#0d1117,stroke:#C9A375,stroke-width:1.5px,color:#EFC38F
     class S0,S1,S2,S3,S4,S5,S6 scene
     class E7,E8,E9,E10,E11,E12,E13,E14,E15 ending
 ```
-
-Change one palette value and the site, the 3D scene, and every video variant regenerate together. No manual re-export, no drift between channels — which is the actual reason brands look inconsistent everywhere else.
 
 <br/>
 
