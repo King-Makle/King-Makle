@@ -81,7 +81,7 @@ Combining code, automation, and emerging AI tools to expand the creative process
 
 ## The Unfinished Citadel
 
-A branching story of mine, mapped end to end — *nine endings, and you may only ever see the door in front of you.* Pan and zoom to trace a path from the gate.
+Nine endings. You may only ever see the door in front of you.
 
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"fontFamily":"Georgia,'Times New Roman',serif","fontSize":"15px","background":"#0d1117","primaryColor":"#12100e","primaryTextColor":"#E6DCCB","primaryBorderColor":"#3A342C","lineColor":"#6E6558","edgeLabelBackground":"#0d1117","tertiaryColor":"#0d1117"},"flowchart":{"curve":"basis","nodeSpacing":26,"rankSpacing":90,"padding":18,"wrappingWidth":900}}}%%
