@@ -24,7 +24,7 @@ The tools will keep changing, and that is part of what keeps the work interestin
 <tr>
 <td width="50%" valign="top">
 
-### Identity &amp; systems
+### Graphic design
 Exploring identity as a flexible system rather than a fixed collection of assets, designed to adapt across interfaces, motion, campaigns, and physical applications.
 
 <kbd>Illustrator</kbd> <kbd>SVG</kbd> <kbd>Design systems</kbd>
@@ -34,7 +34,7 @@ Exploring identity as a flexible system rather than a fixed collection of assets
 </td>
 <td width="50%" valign="top">
 
-### Digital experiences
+### Web development
 Designing websites and interfaces where visual direction, interaction, and implementation feel like parts of the same system rather than separate stages of production.
 
 <kbd>Figma</kbd> <kbd>Astro</kbd> <kbd>React</kbd> <kbd>Tailwind</kbd>
@@ -46,7 +46,7 @@ Designing websites and interfaces where visual direction, interaction, and imple
 <tr>
 <td width="50%" valign="top">
 
-### Motion &amp; spatial design
+### Motion &amp; 3D
 Using animation, 3D, and real-time graphics to create experiences that move, respond, and extend beyond static layouts.
 
 <kbd>Three.js</kbd> <kbd>Remotion</kbd> <kbd>WebGL</kbd> <kbd>GSAP</kbd>
@@ -60,6 +60,18 @@ Using animation, 3D, and real-time graphics to create experiences that move, res
 Combining code, automation, and emerging AI tools to expand the creative process, from early exploration through final production.
 
 <kbd>AI workflows</kbd> <kbd>Creative coding</kbd> <kbd>Automation</kbd> <kbd>Prototyping</kbd>
+
+<br/>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### Marketing strategy
+Positioning and campaign direction developed alongside the design, so the message, the visuals, and the places they run all hold together.
+
+<kbd>Positioning</kbd> <kbd>Campaigns</kbd> <kbd>Content</kbd>
 
 <br/>
 
